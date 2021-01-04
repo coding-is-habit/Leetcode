@@ -1,6 +1,6 @@
 class Solution {
 public:
-​
+    /*
     string removeOuterParentheses(string S) {
        stack< char > stk;
        string ans;
@@ -19,8 +19,8 @@ public:
            }
        }
         return ans;
-    }
-    
+    }
+    */
     string removeOuterParentheses(string S){
         int opened = 0;
         string ans;
@@ -31,5 +31,5 @@ public:
                 ans+=c;
         }
         return ans;
-    }
+    }
 };
